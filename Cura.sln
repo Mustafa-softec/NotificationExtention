@@ -5,6 +5,10 @@ VisualStudioVersion = 25.0.1705.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cura", "Cura\Cura.csproj", "{B7DAC38E-E37A-44B6-8CFB-BC617FF884B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationServiceExtension", "NotificationServiceExtension\NotificationServiceExtension.csproj", "{86ECCEE4-86EA-4459-B171-575B8F1A5BD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationContentExtension", "NotificationContentExtension\NotificationContentExtension.csproj", "{CDD40905-7959-46F2-8FDB-663614411720}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -21,6 +25,22 @@ Global
 		{B7DAC38E-E37A-44B6-8CFB-BC617FF884B2}.Debug|iPhone.Build.0 = Debug|iPhone
 		{B7DAC38E-E37A-44B6-8CFB-BC617FF884B2}.Release|iPhone.ActiveCfg = Release|iPhone
 		{B7DAC38E-E37A-44B6-8CFB-BC617FF884B2}.Release|iPhone.Build.0 = Release|iPhone
+		{86ECCEE4-86EA-4459-B171-575B8F1A5BD1}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{86ECCEE4-86EA-4459-B171-575B8F1A5BD1}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{86ECCEE4-86EA-4459-B171-575B8F1A5BD1}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{86ECCEE4-86EA-4459-B171-575B8F1A5BD1}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{86ECCEE4-86EA-4459-B171-575B8F1A5BD1}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{86ECCEE4-86EA-4459-B171-575B8F1A5BD1}.Debug|iPhone.Build.0 = Debug|iPhone
+		{86ECCEE4-86EA-4459-B171-575B8F1A5BD1}.Release|iPhone.ActiveCfg = Release|iPhone
+		{86ECCEE4-86EA-4459-B171-575B8F1A5BD1}.Release|iPhone.Build.0 = Release|iPhone
+		{CDD40905-7959-46F2-8FDB-663614411720}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{CDD40905-7959-46F2-8FDB-663614411720}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{CDD40905-7959-46F2-8FDB-663614411720}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{CDD40905-7959-46F2-8FDB-663614411720}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{CDD40905-7959-46F2-8FDB-663614411720}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{CDD40905-7959-46F2-8FDB-663614411720}.Debug|iPhone.Build.0 = Debug|iPhone
+		{CDD40905-7959-46F2-8FDB-663614411720}.Release|iPhone.ActiveCfg = Release|iPhone
+		{CDD40905-7959-46F2-8FDB-663614411720}.Release|iPhone.Build.0 = Release|iPhone
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

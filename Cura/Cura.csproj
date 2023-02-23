@@ -35,6 +35,8 @@
         <WarningLevel>4</WarningLevel>
         <MtouchLink>None</MtouchLink>
         <MtouchArch>x86_64</MtouchArch>
+        <CodesignProvision>Automatic</CodesignProvision>
+        <CodesignKey>iPhone Developer</CodesignKey>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
         <DebugSymbols>true</DebugSymbols>
@@ -57,7 +59,8 @@
         <WarningLevel>4</WarningLevel>
         <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
         <MtouchArch>ARM64</MtouchArch>
-        <CodesignKey>iPhone Developer</CodesignKey>
+        <CodesignKey>iPhone Distribution: Ubieva LLC (DFKCU7D9WB)</CodesignKey>
+        <CodesignProvision>CuraUsersiOSAdhocDistributionProvProf</CodesignProvision>
     </PropertyGroup>
     <ItemGroup>
         <Reference Include="System" />
@@ -133,6 +136,18 @@
         <Compile Include="ViewController.designer.cs">
             <DependentUpon>ViewController.cs</DependentUpon>
         </Compile>
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\NotificationServiceExtension\NotificationServiceExtension.csproj">
+        <IsAppExtension>true</IsAppExtension>
+        <Project>{86ECCEE4-86EA-4459-B171-575B8F1A5BD1}</Project>
+        <Name>NotificationServiceExtension</Name>
+      </ProjectReference>
+      <ProjectReference Include="..\NotificationContentExtension\NotificationContentExtension.csproj">
+        <IsAppExtension>true</IsAppExtension>
+        <Project>{CDD40905-7959-46F2-8FDB-663614411720}</Project>
+        <Name>NotificationContentExtension</Name>
+      </ProjectReference>
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
